@@ -1,0 +1,46 @@
+
+body {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 59, 59);
+    transition: 2ms;
+}
+.circulo:hover{
+    animation: crescer 2s ease infinite ;
+}
+
+
+
+@keyframes crescer {
+
+    0% {
+        transform: scale(1);
+        background-color: rgb(255, 0, 0);
+    }
+    100%{
+        transform: scale(2);
+        background-color: rgb(255, 0, 0);
+    }
+}
+
+.voltar {
+    position: fixed;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: 0.5 color black;
+}

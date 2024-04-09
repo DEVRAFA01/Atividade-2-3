@@ -1,0 +1,31 @@
+body {
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.element {
+
+    width: 200px;
+    height: 200px;
+    animation: pulse 5s infinite;
+    border-radius: 10px 10px 10px;
+    background-color: blue;
+
+
+.voltar {
+    position: fixed;
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: 0.5 color black;
+
+}
+
+}
